@@ -55,6 +55,7 @@ export default {
             .main__section-article {
                 flex-basis: 25%;
                 display: flex;
+                justify-content: center;
             }
 
             .main__section-article figure router-link {
@@ -63,7 +64,7 @@ export default {
             }
 
             .main__section-article figure img {
-                height: 100px;
+                height: 200px;
                 width: 200px;
                 border-radius: 15px;
                 background-size: cover;
@@ -85,6 +86,10 @@ export default {
                 margin-top: 20px;
                 flex-direction: column;
                 height: 70vh;
+
+                .main__section-article {
+                    align-items: center;
+                }
             }
         }
     }
