@@ -1,5 +1,13 @@
 # test-innovations
 
+## Tech
+
+Technologies that I use:
+
+- Vue.j
+- SASS  
+- API
+
 ## Project setup
 ```
 npm install
