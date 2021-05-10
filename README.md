@@ -7,6 +7,7 @@ Tecnologías usadas:
 - Vue.j
 - SASS  
 - API https://swapi.dev/
+- GIT
 
 Metas conseguidas:
 
