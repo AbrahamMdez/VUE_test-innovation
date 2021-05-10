@@ -6,6 +6,8 @@ Tecnologías usadas:
 
 - Vue.js
 - Responsive
+- Fetch
+- Axios
 - Flex
 - Grid
 - SASS  
