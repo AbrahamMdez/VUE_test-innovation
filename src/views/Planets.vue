@@ -2,6 +2,8 @@
     <main class="main">
         <h2 class="main__h2">Planets</h2>
 
+        <input type="text" v-model="search" placeholder="Buscar...">
+
         <section class="main__section">
             <article class="main__section-article" v-for="(planet, index) in planets" :key="index">
                 <p>{{ planet.name }}</p>
@@ -30,11 +32,20 @@ export default {
         return {
             planets: [],
             showDetails: false,
+            search: ''
         }
     },
 
     created() {
         this.getPlanets();
+    },
+
+    computed: {
+        filterPlanets() {
+            return this.planets.filter( planet => {
+                return planet.name.match(this.search);
+            })
+        }
     },
 
     methods: {
@@ -54,7 +65,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 
    .main {
         width: 100%;
