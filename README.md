@@ -23,6 +23,7 @@ Metas conseguidas:
 5. Estoy usando la metodología BEM, para las clases.
 6. Creé los estilos desde una carpeta propia de CSS, la cual tengo atomizada, las variables separadas del reset y del resto de configuraciones de CSS,
    simplemente creo un archivo general.scss, en el cual importo todos los estilos y desde app.js solo importo general.scss.
+7. Creé la funcionalidad para buscar por nombre en la vista de planetas, pero no funciona.
 
 ## Project setup
 ```
