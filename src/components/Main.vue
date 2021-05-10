@@ -12,7 +12,7 @@
 
             <article class="main__section-article">
                 <figure>
-                    <router-link to="/planets">
+                    <router-link to="/starships">
                         <img src="../assets/img/starship.jpg" alt="">
                         <figcaption>STARSHIPS</figcaption>
                     </router-link>
@@ -21,7 +21,7 @@
 
             <article class="main__section-article">
                 <figure>
-                    <router-link to="starships">
+                    <router-link to="/planets">
                         <img src="../assets/img/planets.jpg" alt="">
                         <figcaption>PLANETS</figcaption>
                     </router-link>
@@ -82,6 +82,7 @@ export default {
             }
 
             .main__section {
+                margin-top: 20px;
                 flex-direction: column;
                 height: 70vh;
             }
