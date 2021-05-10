@@ -6,7 +6,7 @@ Technologies that I use:
 
 - Vue.j
 - SASS  
-- API
+- API https://swapi.dev/
 
 ## Project setup
 ```
