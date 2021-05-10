@@ -2,7 +2,7 @@
     <main class="main">
         <h2 class="main__h2">PLANETS</h2>
 
-        <input type="text" v-model="search" placeholder="Buscar...">
+        <!-- <input type="text" v-model="search" placeholder="Buscar..."> -->
 
         <section class="main__section">
             <article class="main__section-article" v-for="(planet, index) in planets" :key="index">
@@ -69,7 +69,6 @@ export default {
 
    .main {
         width: 100%;
-        height: 200vh;
         background-image: url(../assets/img/stars.jpg);
         background-size: cover;
 
@@ -95,6 +94,7 @@ export default {
                 padding: 15px;
                 background-color: rgb(236, 236, 236);
                 border-radius: 15px;
+                margin-bottom: 20px;
             }
 
             .main__section-article h2 {

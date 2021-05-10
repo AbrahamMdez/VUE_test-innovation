@@ -58,7 +58,6 @@ export default {
 
     .main {
         width: 100%;
-        height: 200vh;
         background-image: url(../assets/img/stars.jpg);
         background-size: cover;
 
@@ -84,6 +83,7 @@ export default {
                 padding: 15px;
                 background-color: rgb(236, 236, 236);
                 border-radius: 15px;
+                margin-bottom: 20px;
             }
 
             .main__section-article p {
@@ -115,6 +115,7 @@ export default {
         }
 
         @media(max-width: 800px) {
+            
             .main__section {
                 display: flex;
                 flex-direction: column;
