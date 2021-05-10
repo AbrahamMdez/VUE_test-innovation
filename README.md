@@ -4,7 +4,7 @@
 
 Tecnologías usadas:
 
-- Vue.j
+- Vue.js
 - Responsive
 - Flex
 - Grid
