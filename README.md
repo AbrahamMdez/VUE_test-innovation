@@ -5,6 +5,9 @@
 Tecnologías usadas:
 
 - Vue.j
+- Responsive
+- Flex
+- Grid
 - SASS  
 - API https://swapi.dev/
 - GIT
